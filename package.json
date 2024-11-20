@@ -4,13 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "events":"npx tsx src/events.ts",
+    "fs":"npx tsx src/fs.ts",
+    "fsPromise":"npx tsx src/fsPromise.ts",
+    "fsSync":"npx tsx src/fsSync.ts",
+    "myEmitter":"npx tsx src/myEmitter.ts",
+    "myEvent":"npx tsx src/myEvent.ts",
+    "os":"npx tsx src/os.ts",
+    "path":"npx tsx src/path.ts"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@types/node": "^22.9.0"
